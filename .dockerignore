@@ -1,0 +1,8 @@
+
+.DS_Store
+.gitignore
+.git/
+License.md
+Rakefile
+test/
+README.md
