@@ -11,5 +11,8 @@ RUN apk --update add docker && \
 	kitchen-ec2:1.0.0 \
 	kitchen-ansible:0.45.4 
 
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+
 WORKDIR /kitchen
 
