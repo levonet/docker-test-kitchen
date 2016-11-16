@@ -3,7 +3,7 @@ FROM ruby:2.3.1-alpine
 
 MAINTAINER Robert Northard <robertnorthard@googlemail.com>
 
-RUN apk --update add docker && \
+RUN apk --update add docker sudo && \
   rm -rf /var/cache/apk* && \
   gem install --no-rdoc --no-ri \
 	test-kitchen:1.10.2 \
